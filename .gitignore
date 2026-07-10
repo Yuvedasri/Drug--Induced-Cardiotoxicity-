@@ -23,23 +23,24 @@ wheels/
 .installed.cfg
 *.egg
 
-# PyTorch
+# PyTorch (except in outputs/)
 *.pt
 *.pth
+!outputs/*.pt
 
-# Data files
+# Data files (except in outputs/)
 *.csv
 *.xlsx
 *.txt
 *.npy
+!outputs/*.csv
+!outputs/*.npy
+!outputs/*.json
+!outputs/*.png
 
-# Outputs (large files excluded from repo)
-outputs/molecular_graphs.pt
-outputs/best_gat_model.pt
-outputs/*.csv
-outputs/*.npy
-outputs/*.json
-outputs/*.png
+# Outputs - now tracked with Git LFS
+# Large .pt files are tracked with LFS
+# Other output files are included in repo
 
 # IDE
 .vscode/
