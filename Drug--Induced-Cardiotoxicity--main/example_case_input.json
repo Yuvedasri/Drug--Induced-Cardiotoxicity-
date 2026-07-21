@@ -1,0 +1,18 @@
+{
+  "drug_name": "Aspirin",
+  "smiles": "CC(=O)Oc1ccccc1C(=O)O",
+  "age": 72,
+  "sex": "female",
+  "medical_history": {
+    "diabetes": false,
+    "hypertension": true,
+    "heart_failure": true
+  },
+  "current_medication": "metoprolol",
+  "lab_report": {
+    "potassium": 3.2,
+    "troponin": 0.05,
+    "sodium": 133,
+    "magnesium": 1.5
+  }
+}

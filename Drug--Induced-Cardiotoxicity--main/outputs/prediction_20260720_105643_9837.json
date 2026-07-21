@@ -1,0 +1,53 @@
+{
+  "timestamp": "20260720_105643",
+  "input_path": "example_case_input.json",
+  "smiles": "CC(=O)Oc1ccccc1C(=O)O",
+  "case_metadata": {
+    "drug_name": "Aspirin",
+    "age": 72,
+    "sex": "female",
+    "medical_history": {
+      "diabetes": false,
+      "hypertension": true,
+      "heart_failure": true
+    },
+    "current_medication": "metoprolol",
+    "lab_report": {
+      "potassium": 3.2,
+      "troponin": 0.05,
+      "sodium": 133,
+      "magnesium": 1.5
+    }
+  },
+  "valid": true,
+  "probability": 0.6118218898773193,
+  "graph_probability": 0.5512264370918274,
+  "classification": "TOXIC (hERG blocker risk)",
+  "confidence": "moderate confidence",
+  "causal_atoms": [
+    {
+      "index": 0,
+      "symbol": "C",
+      "aromatic": false
+    },
+    {
+      "index": 1,
+      "symbol": "C",
+      "aromatic": false
+    },
+    {
+      "index": 2,
+      "symbol": "O",
+      "aromatic": false
+    },
+    {
+      "index": 3,
+      "symbol": "O",
+      "aromatic": false
+    }
+  ],
+  "causal_drop": 0.008246779441833496,
+  "random_drop": 0.007538127899169922,
+  "visualization_path": "outputs\\prediction_20260720_105643_9837.png",
+  "error": null
+}
